@@ -34,10 +34,13 @@ Only using the docker cache was not amazing for us since the cache was sometimes
 
 * `docker`
 
+#### Fix `apt` issues
+
 Right now, as of January 31st 2021, we must update the `libseccomp` for apt to work in docker images:
 
 * Download info [here](https://packages.debian.org/sid/armhf/libseccomp2/download)
-* ```bash
+
+```bash
 wget http://ftp.us.debian.org/debian/pool/main/libs/libseccomp/libseccomp2_2.5.1-1_armhf.deb
 sudo dpkg -i libseccomp2_2.5.1-1_armhf.deb
 ```
