@@ -52,7 +52,9 @@ So ! We want to build an environment with `ghc` and `cabal` that we'll be able t
 
 We can do this running this command with this repo as current working directory:
 
-`DOCKER_BUILDKIT=1 DOCKER_CLI_EXPERIMENTAL=enabled docker build . -t haskell-builder"
+`DOCKER_BUILDKIT=1 DOCKER_CLI_EXPERIMENTAL=enabled docker build . -t haskell-builder`
+
+It took me 1h45 to build on the setup described above.
 
 
 ## Build with the Environment
