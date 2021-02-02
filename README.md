@@ -1,5 +1,9 @@
 # Haskell Build Environment with Cabal on Raspberry Pi
 
+**Still haven't manage to make it work !**
+
+I got stuck with an executable that needs `glibc` to be 2.29 but the current Raspberry OS uses `glibc` 2.28... (February 1st 2021)
+
 We share this here in case it can help folks out there.
 
 
