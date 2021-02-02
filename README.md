@@ -69,10 +69,11 @@ Once we have that environment, we can start it with:
 
 Once in the container shell:
 
-`cd project
+```bash
+cd project
 cabal update # The first time
 cabal build
-`
+```
 
 Adapt the paths if needed !
 
